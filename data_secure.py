@@ -54,13 +54,13 @@ def decrypt_text(encrypted_text, key):
 stored_data = load_data()
 
 
-st.title("🔐 Secure Multi-User Data System")
+st.title("๋࣭ ⭑💻 Secure Multi-User Data System")
 menu = ["Home", "Register", "Login", "Store Data", "Retrieve Data"]
 choice = st.sidebar.selectbox("Navigation", menu)
 
 # Page Home 
-if choice == "Home":
-    st.subheader("🏠 Welcome!")
+if choice == "♡ Home":
+    st.subheader(" Welcome!")
     st.markdown("Securely store & retrieve your data with encryption. Each user has their own protected data.")
 
 # === Register ===
